@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #0056b3;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    /* Animation */
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+  display: inline-block;
+   
+ 
+}
+
+.nav a:hover {
+    color:#e6b800;
+ 
+}
+.dropdown{
+    display: block;
+    position: absolute;
+
+}
+.dropdown ul li{ 
+display: block;
+padding: 0%;
+margin: 0%;
+
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007BFF;
+    background: url(1000005478.jpg);
+    color: white;
+    text-align: center;
+    padding: 150px 20px 100px;
+    /* Animation */
+    animation: scaleIn 1s ease-in-out;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: rgb(255, 204, 0);
+    color: #0056b3;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    background-color: #e6b800;
+}
+
+/* Sections */
+.main-content {
+    margin-top: 40px; /* To account for fixed header */
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section {
+    background: url(wooden-floor-background.jpg)   ;
+    
+}
+
+.courses-section {
+    background-color: #BCE7FD;
+}
+
+.contact-section {
+    background-color: #fff;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+    /* Animation */
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Course Cards */
+.course-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px var(--accent-glow);
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+   
+    border-color: (--accent);
+
+}
+
+/* Footer */
+.footer {
+    background-color: #2B2118;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* --- Keyframe Animations --- */
+
+/* For Header */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* For Hero Section */
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* For Section Titles */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.zayan{
+    background-color: #179adc;
+    text-decoration: none;
+}
+.sameer{
+    display: block;
+    position:absolute;
+    
+}
+.sameer ul li a{
+    display: block;
+
+}
+#about{
+    text-align: left;
+}
+#section-title {
+    text-align: center;
+}
+#line{
+    text-decoration: none;
+}
+#face{
+    text-decoration: none;
+}
+#button{
+    bottom: unset;
+}
+#a{
+    text-decoration: none;
+}
+#b{
+    text-decoration: none;
+}
+#c{
+    text-decoration: none;
+}
+#d{
+    text-decoration: none;
+}
+
